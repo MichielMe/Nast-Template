@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from app.models.post import UserPost, UserPostIn, Comment, CommentIn, UserPostWithComments
 
+
 router = APIRouter() 
 post_table = {}
 comment_table = {}
